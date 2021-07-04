@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Title</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://getbootstrap.com/docs/5.0/assets/css/docs.css">
+    <link rel="stylesheet" href="Styles/home.css">
+    <link rel="stylesheet" href="Styles/notifications.css">
+    <link rel="stylesheet" href="Styles/single_blog.css">
+    <style>
+        #more__menu{
+          display: none;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+        $("#more_menu_dropdown").click(function(){
+            $("#more__menu").toggle();
+        });
+        });
+    </script>
+</head>
+<body>
+
+    <section class="topbar">
+        <div class="topbar_items">
+            <div class="logo__area">
+                <a href="./index.html"><img src="Images/Logo/Logo.png" alt="" width="120px" height="35px"></a>
+            </div>
+            <div class="search__bar">
+                <form action="">
+                    <div class="search__bar__container">
+                        <input type="search" name="search" id="search">
+                        <button type="submit"><i class="fas fa-search"></i></button>
+                    </div>
+                </form>
+            </div>
+            <div class="nav__items">
+                <ul class="navbar-nav">
+                    <li title="Video Conference"><a href="./video_conference.html"><i class="fas fa-video"></i></a></li>
+                    <li title="Profile"><a href="./profile_page.html"><i class="fas fa-user-circle"></i></a></li>
+                    <li title="Notification"><a href="./notifications.html"><i class="far fa-bell"></i></a></li>
+                    <li title="Language"><a href="#"><i class="fas fa-globe"></i></a></li>
+                    <li title="More Option"><a href="#"><i id="more_menu_dropdown" class="fas fa-caret-square-down"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <div class="container-xxl my-md-4 bd-layout">
+
+        <aside class="bd-sidebar">
+            <h6>About Jhon Dhoe</h6>
+            <hr>
+            <div class="about__author">
+                <div class="author__name__image">
+                    <div class="author__image">
+                        <img src="Images/John.jpg" alt="" width="100%" height="100%">
+                    </div>
+                    <div class="author__name">
+                        <a href="">Jhon Doe</a>
+                    </div>
+                </div>
+                <div class="author__bio">
+                    <p> <u>Assistant Teacher</u><br> <span><i>Wisdom Elementary School</i></span></p>
+                </div>
+                <div class="follow__btn">
+                    <button>Follow</button>
+                </div>   
+            </div>
+            <div class="author__blogs">
+                <h6>More from Jhon Doe</h6>
+                <hr>
+                <div class="container">
+                    <div class="single__blog">
+                        <div class="post__title">
+                            <a href="./single_blog.html"><h6>Pay Attention to Headlines You Like. ...</h6></a>
+                        </div>
+                        <div class="tags">
+                            <span><a href="">#bangla</a></span>
+                            <span><a href="">#bangladesh</a></span>
+                            <span><a href="">#khulna</a></span>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="single__blog">
+                        <div class="post__title">
+                            <a href="./single_blog.html"><h6>Pay Attention to Headlines You Like. ...</h6></a>
+                        </div>
+                        <div class="tags">
+                            <span><a href="">#bangla</a></span>
+                            <span><a href="">#bangladesh</a></span>
+                            <span><a href="">#khulna</a></span>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="single__blog">
+                        <div class="post__title">
+                            <a href="./single_blog.html"><h6>Pay Attention to Headlines You Like. ...</h6></a>
+                        </div>
+                        <div class="tags">
+                            <span><a href="">#bangla</a></span>
+                            <span><a href="">#bangladesh</a></span>
+                            <span><a href="">#khulna</a></span>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="single__blog">
+                        <div class="post__title">
+                            <a href="./single_blog.html"><h6>Pay Attention to Headlines You Like. ...</h6></a>
+                        </div>
+                        <div class="tags">
+                            <span><a href="">#bangla</a></span>
+                            <span><a href="">#bangladesh</a></span>
+                            <span><a href="">#khulna</a></span>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="single__blog">
+                        <div class="post__title">
+                            <a href="./single_blog.html"><h6>Pay Attention to Headlines You Like. ...</h6></a>
+                        </div>
+                        <div class="tags">
+                            <span><a href="">#bangla</a></span>
+                            <span><a href="">#bangladesh</a></span>
+                            <span><a href="">#khulna</a></span>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+            </div> 
+        </aside>
+        <main class="bd-main order-1">
+
+            <div class="main__content__section">
+
+                <div class="container">
+                    <img src="Images/Banner.jpg" alt="" width="100%" height="auto">
+                    <div class="title">
+                        <h2>Copy and Paste Emoji ✂ 👍</h2>
+                    </div>
+                    <div class="tags">
+                        <a class="text-muted" href="">#web_design</a>
+                        <a class="text-muted" href="">#web_dev</a>
+                        <a class="text-muted" href="">#devs</a>
+                        <a class="text-muted" href="">#dev_tools</a>
+                    </div>
+                    <div class="author">
+                        <div class="author__pic">
+                            <a href=""><i class="fas fa-user-circle"></i></a>
+                        </div>
+                        <div class="author__name__time">
+                            <div class="author__name">
+                                <a href="">Jhon Dhoe</a>
+                            </div>
+                            <div class="post__time text-muted">
+                                12:12 . 20.12.2050
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog__content">
+                        <p>Are you looking 👀 for emoji symbols you 
+                            could copy and paste to another website or
+                           app❓ Online ⌨️ Emoji Keyboard 2021 for 💻 PC,
+                           tablets and 📱 smartphones. Copy and paste
+                           every emoji with 👍 no apps required❗
+                           Emojis are supported on iOS, Android,
+                           macOS, Windows, Linux and ChromeOS.
+                           Copy and paste emojis for Twitter,
+                           Facebook, Slack, Instagram, Snapchat, 
+                           Slack, GitHub, Instagram, WhatsApp and more 👌. 
+                           Our new mobile-friendly web app provides 
+                           a simple, beautiful copy and paste emoji 
+                           keyboard interface WITH search and auto-copy 
+                           technology.
+                           <br>
+                           <h3>What are Emoji and where are these used?</h3>
+                           <br>
+                           Emoji are emoticons, smileys and ideograms used to express emotions in websites or 
+                           electronic messages. With the use of them, users convey a certain emotion which creates 
+                           an emotional impact for the receiver. These characters or images are very popular on 
+                           social media websites and messaging apps like Instagram, Facebook, Twitter, Google 
+                           Hangouts, Snapchat, iMessage, Whatsapp and others. You can also notice emojis used 
+                           on Snapchat Trophies. Currently, Emoji symbols are supported on all major platforms 
+                           including OS X, iOS, Windows, and Android.
+                           <br>
+                           <h3>What is "Copy & Paste Emoji" service?</h3>
+                           <br>
+                           Originated from Japan, now Emoji symbols are popular in all major operating systems, 
+                           social websites and messaging apps. Each Emoji has the same code and meaning however 
+                           visual appearance can vary by platform. We know some websites and apps support Emojis 
+                           however users are not provided with Emoji keyboard to easily use them on their systems. 
+                           What is more, have you ever needed Emoji for PC? That is the problem we are trying to solve 
+                           with our website. We have collected all Emoji symbols in one place for you to easily
+                           copy and paste them wherever you want.
+                           <br>
+                           <h3>What is an Emoji?</h3>
+                           <br>
+                           Emoji is a digital symbol that is used mostly in electronic conversation to send feelings, 
+                           emotions, or ideas. Emoji was initially discovered in Japan. The Shigetaka Kurita realized 
+                           that there were some missing elements of human emotions and feelings that are not expressed 
+                           with letters and numbers in text messages. Shigetaka Kurita took inspirations from a weather 
+                           report then, he created initially 176 symbols. He called that new creation an 'Emoji'. Emoji 
+                           means picture and Moji means characters. He was released that emojis in mobile phone companies 
+                           NTT Docomo in 1999. Emoji is used to represent the facial expression, ideas and feelings. Now, 
+                           Emoji used in every social media platform, and emoji makes communication better than text. 
+                           An emoji is a visual representation of an emotion, object or symbol. Emoji can are in modern 
+                           communication apps such as your smartphone’s text messaging or social networking apps such as 
+                           Facebook, Instagram, Twitter, and Snapchat. To access your library of emoticons in any app, tap 
+                           the smiley face icon on the keyboard. This will reveal a library of emoticons organized into categories. 
+                           On iOS, your most recently used emoticons are displayed, followed by emotive images, animals/creatures, 
+                           food, sports/activities, motor vehicles, technology/equipment, hearts/symbols, and flags. The categorization 
+                           is a bit convoluted and not well organized. Often, it might be difficult to find an emoticon you want. Apple 
+                           promises to make this easier in the next version of iOS by activating words into emotions by just tapping them.
+                           <br>
+                           <a href="https://listemoji.com">https://listemoji.com</a>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+            <div class="bd-toc mt-4 mb-5 my-md-0 ps-xl-3 mb-lg-5 text-muted right__side__bar">
+
+
+                <div id="more__menu">
+
+                    <ul>
+                        <li>
+                            <i class="fas fa-user-circle"></i> <span>Jhon Dhoe</span>
+                        </li>
+                        <hr style="margin: 2px 0px;">    
+                        <li>
+                            <i class="far fa-comment-alt"></i> Feedback
+                        </li>
+                        <li>
+                            <i class="fas fa-cog"></i> Setting & Privacy
+                        </li>
+                        <li>
+                            <i class="fas fa-question-circle"></i> Help & Support
+                        </li>
+                        <li>
+                            <i class="fas fa-sign-out-alt"></i> Sign Out
+                        </li>
+                    </ul>
+              </div>
+
+
+
+               <div class="upcoming__event">
+                   <h5>Upcoming event</h5>
+                   <hr>
+                   <div class="container">
+                       <h6><a href="">Pay Attentions to Headlines You Like......</a></h6>
+                   </div>
+                   <div class="container">
+                    <h6><a href="">Pay Attentions to Headlines You Like......</a></h6>
+                </div>
+               </div>
+               <div class="recent__activities">
+                   <h5>Recent activities</h5>
+                   <hr>
+                   <div class="container">
+                       <h6><a href="">Pay Attentions to Headlines You Like......</a></h6>
+                   </div>
+                   <div class="container">
+                    <h6><a href="">Pay Attentions to Headlines You Like......</a></h6>
+                </div>
+               </div>
+               <div class="popular__activities">
+                   <h5>Popular activities</h5>
+                   <hr>
+                   <div class="container">
+                       <h6><a href="">Pay Attentions to Headlines You Like......</a></h6>
+                   </div>
+                   <div class="container">
+                    <h6><a href="">Pay Attentions to Headlines You Like......</a></h6>
+                </div>
+               </div>
+            </div>
+
+
+        </main>
+
+    </div>
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>

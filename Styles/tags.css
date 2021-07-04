@@ -1,0 +1,32 @@
+main {
+  display: grid;
+  grid-template-areas: "container";
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+}
+main .main__content__section .tag__list {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+main .main__content__section .tag__list .tag__single {
+  background: #fff;
+  border-radius: 8px;
+  padding: 4px;
+  padding-bottom: 1px;
+  margin: 8px;
+}
+main .main__content__section .tag__list .tag__single .tag_name a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 22px;
+}
+main .main__content__section .tag__list .tag__single .tag_name a:hover {
+  text-decoration: underline;
+}
+main .main__content__section .tag__list .tag__single .tag_posts a {
+  text-decoration: none;
+  color: inherit;
+}
+main .main__content__section .tag__list .tag__single .tag_posts a:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=tags.css.map */

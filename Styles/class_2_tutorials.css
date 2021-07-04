@@ -1,0 +1,110 @@
+* body {
+  padding: 0;
+  margin: 0px 16px 6px 10px;
+  background-color: #eeeeee;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+.topbar {
+  display: flex;
+  margin: 0px 0px 6px 0px;
+  padding: 5px;
+  position: sticky;
+  top: 0;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 0px 4px 6px -3px rgba(0, 0, 0, 0.66);
+}
+
+.topbar .logo__area {
+  float: left;
+  position: relative;
+  margin-right: 20px;
+}
+
+.topbar .search__bar {
+  margin-top: 3px;
+  display: inline-block;
+}
+
+.topbar .search__bar .search__bar__container #search {
+  border: 1px solid #fff;
+  outline: none;
+  background-color: #eee6e6;
+  padding: 4px;
+  min-width: 350px;
+  border-right: 0.2px solid #eee6e5;
+}
+
+.topbar .search__bar .search__bar__container button {
+  border: 0.2px solid #fff;
+  outline: none;
+  padding: 4px;
+  position: absolute;
+  background-color: #eee6e6;
+}
+
+.topbar .search__bar .search__bar__container i {
+  font-size: 18px;
+  padding: 1px 8px;
+}
+
+.topbar .nav__items {
+  float: right;
+}
+
+.topbar .nav__items ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.topbar .nav__items ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 36px;
+  width: 36px;
+  margin: 0px 18px;
+  padding: 0px 10px;
+  background-color: #fff;
+  transition: background 0.4s ease;
+  border-radius: 50%;
+}
+
+.topbar .nav__items ul li:hover {
+  background: #7efff44f;
+}
+
+.topbar .nav__items ul li a {
+  color: #131111;
+}
+
+.topbar .nav__items ul li a i {
+  font-size: 22px;
+  position: relative;
+}
+
+.container {
+  margin-top: 14px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.container a {
+  text-decoration: none;
+  color: #000;
+}
+
+.container a .single__subject {
+  background-color: #fff;
+  box-sizing: border-box;
+  box-shadow: 0px 3px 4px -4px rgba(0, 0, 0, 0.66);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+}
+/*# sourceMappingURL=class_2_tutorials.css.map *//*# sourceMappingURL=class_2_tutorials.css.map */
